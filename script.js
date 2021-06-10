@@ -182,7 +182,7 @@ function Collision() {
 function incrementScore() {
     ctx.font = "10px Verdana";
     ctx.fillStyle = "white";
-    ctx.fillText("Score : " + score, canvas.width - 80, 10);
+    ctx.fillText("SCORE : " + score, canvas.width - 80, 10);
 
     // console.log(score); 
 }
