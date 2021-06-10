@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #dde1e7;
+}
+#snakegrid{
+   
+    box-shadow:black 20px 10px 50px ;
+    margin-top: 25px;
+
+}
+
+button{
+    margin: 50px;
+    width: 150px;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    background-color: #dde1e7;
+    box-shadow: -3px -3px 6px #ffffff30, 4px 6px 12px #00000090;
+    text-align: center;
+    outline: none;
+    transition: 0.4s;
+    border-radius: 100px;
+}
+
+button:active{
+    box-shadow: inset -3px -3px 6px #ffffff30, inset 4px 6px 12px #00000090;
+
+}
+button:hover{
+    cursor: pointer;
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+}
