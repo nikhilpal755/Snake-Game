@@ -45,17 +45,6 @@ function drawGame() {
     if(gameOver()){
         gameoveraudio.play();
 
-        // // Showing Game-Over on Screen
-        //     ctx.font = "50px Verdana";
-        //     // Create gradient
-        //     var gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
-        //     gradient.addColorStop("0"," magenta");
-        //     gradient.addColorStop("0.5", "blue");
-        //     gradient.addColorStop("1.0", "red");
-        //     // Fill with gradient
-        //     ctx.fillStyle = gradient;
-        //     ctx.fillText("Game Over!!", 50, 200);
-
         alert("Game Over !!! ");
         return;
     }
