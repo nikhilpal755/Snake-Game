@@ -56,19 +56,6 @@ function drawGame() {
     CreateApple();
     Collision();
     incrementScore();
-
-   //---- Increasing speed of snake ---   
-     if(score > 50){
-        speed = 50;
-    }else if(score > 20){
-        speed = 20;
-    }else if(score > 10 ){
-        speed = 15;
-    }else if(score > 5){
-        speed = 10;
-    }
-    //-----------------
-    
     setTimeout(drawGame, 1000 / speed);
 
 }
@@ -163,6 +150,7 @@ function Collision() {
 
         currentLength++;
         score++;
+        speed++;
 
     }
 }
